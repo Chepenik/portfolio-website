@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
@@ -19,30 +18,31 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am a <span className="font-medium">Bitcoin maximalist</span> who loves
+        technology, especially Bitcoin, Nostr, and open-source software. I
+        believe they empower regular people, which is awesome. Much of my time
+        is devoted to making websites and attending Bitcoin meetups like
+        MassAdoption and Boston BitDevs.
       </p>
-
+      <p className="mb-3">
+        Throughout my life, I hold the aspiration to witness the rise of a
+        financial system that emancipates humanity from the shackles of money as
+        a tool of control. The prevailing fiat money system, backed by debt and
+        coercion, perpetuates a harmful cycle that undermines true financial
+        sovereignty. That's why I advocate for a monetary system founded on the
+        unyielding principles of mathematics and open-source technology. Bitcoin
+        serves as a beacon of hope, as its decentralized nature ensures the
+        value of money is no longer dictated by centralized entities who face no
+        opportunity cost for printing money, unlike the rest of humanity.
+      </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        In addition to coding and attending meetups, I find joy in a variety of
+        activities, including: sharing memes on the internet, cherishing quality
+        time with my daughter, embracing the challenge of running, writing, and
+        podcasting, both as a creator and listener. I am always looking for new
+        ways to challenge myself and grow, and I believe that these activities
+        help me to do just that. Cypherpunks write code. If you want to learn
+        more about my journey and perspectives, visit conorchepenik.com.
       </p>
     </motion.section>
   );
