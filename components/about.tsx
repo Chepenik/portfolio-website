@@ -41,8 +41,7 @@ export default function About() {
         time with my daughter, embracing the challenge of running, writing, and
         podcasting, both as a creator and listener. I am always looking for new
         ways to challenge myself and grow, and I believe that these activities
-        help me to do just that. Cypherpunks write code. If you want to learn
-        more about my journey and perspectives, visit conorchepenik.com.
+        help me to do just that. Cypherpunks write code. If you want to work with me I do write articles and build websites for sats.
       </p>
     </motion.section>
   );

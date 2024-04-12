@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://i.nostr.build/Q77Kv.jpg"
+              src="https://i.nostr.build/WklY.jpg"
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -83,25 +83,34 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#contact"
+          href="https://www.swanbitcoin.com/conorchepenik/"
+          target="_blank"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
         >
-          Get In Touch{" "}
+          Buy Bitcoin{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
+        {/* <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
           Hire Me{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
+
+        {/* <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://github.com/Chepenik"
+          target="_blank"
+        >
+          <FaGithubSquare />
+        </a> */}
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
@@ -117,14 +126,6 @@ export default function Intro() {
           target="_blank"
         >
           <BsTwitter />
-        </a>
-
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/Chepenik"
-          target="_blank"
-        >
-          <FaGithubSquare />
         </a>
       </motion.div>
     </section>
