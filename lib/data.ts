@@ -62,9 +62,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "MassAdoption",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I worked as a full-stack developer for this startup which started as a Bitcoin meetup. I believe in what MassAdoption is doing and recommend checking out their website I helped create at massadoption.net",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },

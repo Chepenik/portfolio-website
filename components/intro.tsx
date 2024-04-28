@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://i.nostr.build/WklY.jpg"
+              src="https://i.nostr.build/J6BJz.png"
               alt="Ricardo portrait"
               width="192"
               height="192"

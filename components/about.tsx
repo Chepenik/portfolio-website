@@ -18,11 +18,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a <span className="font-medium">Bitcoin maximalist</span> who loves
+        I am a <span className="font-medium">Bitcoiner</span> who loves
         technology, especially Bitcoin, Nostr, and open-source software. I
         believe they empower regular people, which is awesome. Much of my time
-        is devoted to making websites and attending Bitcoin meetups like
-        MassAdoption and Boston BitDevs.
+        is devoted to my day job at Swan, writing articles for Bitcoinnews.com and making websites.
       </p>
       <p className="mb-3">
         Throughout my life, I hold the aspiration to witness the rise of a
@@ -36,7 +35,7 @@ export default function About() {
         opportunity cost for printing money, unlike the rest of humanity.
       </p>
       <p>
-        In addition to coding and attending meetups, I find joy in a variety of
+        In addition to coding and helping others understand why Bitcoin is so important, I find joy in a variety of
         activities, including: sharing memes on the internet, cherishing quality
         time with my daughter, embracing the challenge of running, writing, and
         podcasting, both as a creator and listener. I am always looking for new
